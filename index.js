@@ -284,7 +284,7 @@ function grade(number){
     return `you got a C`;
   }else if(number < 70 && number >= 60){
     return `you got a D`;
-  }else if(number > 59){
+  }else if(number < 60){
     return `you got an F`;
 }
 }
